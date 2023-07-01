@@ -5,8 +5,8 @@
 First, we setup a conda environment with the required dependencies:
 
 ```
-conda create -n tabular-dl python=3.10 -y
-conda activate tabular-dl
+conda create -n tabular-dl-transformer python=3.10 -y
+conda activate tabular-dl-transformer
 conda install pytorch::pytorch=2.0.0 -c pytorch -y
 conda install scikit-learn=1.2.2 pandas=2.0.1 tqdm=4.65.0 optuna=3.2.0 -c conda-forge -y
 pip install einops==0.6.1
